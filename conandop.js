@@ -9,3 +9,18 @@ console.log(typeof valueinNumber)
 //true 1 false 0
 //"" => false in boolean
 //"hsdhdh" => true in boolean
+console.log("1"+2)
+console.log("1"+1)
+console.log(1+2+"3")    
+
+console.log(+true) //1
+console.log(+"") //0
+
+
+console.log(null>0) //false
+console.log(null==0) //false   
+console.log(null>=0) //true
+
+//strict Check'
+
+
