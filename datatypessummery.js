@@ -15,7 +15,7 @@ let mySet=new Set([1,2,3,4,5])
 let myfun=function(){
     console.log('hello')
 }
-const id=Symbol('123')
+//const id=Symbol('123')
 const anotherID=Symbol('123')
 
 console.log(id===anotherID) //false
