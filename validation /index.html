@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./styles.css ">
+</head>
+<body class="slds-media_center slds-grid_align-center slds-grid">
+    <div id="error"> </div>
+    <form action="/" method="get" id="form" onsubmit="validate()">
+        <div style="text-align: center;">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <br>
+            <button type="submit" >Submit</button>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </form>
+    <script src="./scripts.js"></script>
+</body>
+</html>
